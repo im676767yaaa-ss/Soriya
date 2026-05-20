@@ -1,0 +1,161 @@
+/* header */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .card {
+    padding: 5px;
+}
+
+/* contaner */
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 90.5%;
+    margin-left: 80px;
+
+
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    gap: 45px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.menu li a i {
+    padding: 5px;
+    margin-right: 5px;
+    color: gray;
+}
+
+/* logo */
+.logo img {
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* banner */
+.banner img {
+    margin-left: 85px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10px;
+}
+
+/* category */
+.category {
+    display: flex;
+    width: 90.5%;
+    margin-left: 80px;
+}
+
+.category .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.category .card img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.category .card p {
+    text-align: center;
+}
+
+.category .card:hover {
+    border: 1px solid blue;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product .card {
+    width: 25%;
+    height:400px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+
+.product .card img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin-left: 100px;
+}
+.product .card h2{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.product .card h3{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.product .card p{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+.product .card .li {
+    margin-left: 150px;
+    color: gold;
+    padding: 15px;
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 160px;
+}
